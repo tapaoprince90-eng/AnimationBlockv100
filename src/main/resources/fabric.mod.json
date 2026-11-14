@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "animateblock",
+  "version": "${version}",
+  "name": "AnimateBlock CapCut Mod",
+  "description": "CapCut-style timeline editor for animating blocks, transitions, graphs, particles, and sounds.",
+  "authors": [
+    "AnimateBlock"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.animateblock.AnimateBlockMod"
+    ],
+    "client": [
+      "com.animateblock.client.AnimateBlockClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
